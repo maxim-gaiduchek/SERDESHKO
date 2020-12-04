@@ -1,7 +1,7 @@
-let lis = document.getElementsByTagName("li");
+let hearts = document.getElementsByClassName("heart");
 
-let hearts = ["❤️", "🖤"];
+let heartsArr = ["❤️", "🧡", "💛", "💚", "💙", "💜", "🖤"];
 
-for (int i = 0; i < lis.length; i++) {
-    li.styles.content = hearts[i % hearts.length];
+for (let i = 0; i < hearts.length; i++) {
+    hearts[i].innerHTML = heartsArr[i % heartsArr.length];
 }
